@@ -1,0 +1,150 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('umagenuwu3.jpg'); /* Asegúrate de reemplazar 'ruta/a/tu/imagen.jpg' con la ruta real de tu imagen */
+    background-size: cover; /* Esto asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color:  rgba(0, 0, 0, 0.8); /* Rosa semi-transparente */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+main {
+    background-color: black;
+    padding: 150px;
+    
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra negra semi-transparente */
+        
+}
+/* Estilo para la imagen decorativa */
+.imagen-decorativa {
+    position: absolute;
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+   left: 500px;
+    top:-15px;
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    
+   
+}
+.imagen-decorativa2 {
+    position: absolute;
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+   left:500px;
+    top:570px;
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    
+   
+}
+.imagen-decorativa3 {
+    position: absolute;
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+   left: 500px;
+    top:90px;
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    
+   
+}.imagen-decorativa4 {
+    position: absolute;
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+   left:500px;
+    top:410px;
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    
+   
+}.imagen-decorativa5 {
+    position: absolute;
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+   left: 500px;
+    top:250px;
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    
+   
+}
+/*texto{
+    position: absolute;
+    left: 700px;
+    */
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color:  rgba(0, 0, 0, 0.8); /* Rosa semi-transparente */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.slider {
+    position: absolute;
+    width: 30%;
+    max-width: 800px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    left: 680px;
+    top:280px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+.letras{
+    
+    position: absolute;
+     top: 65%;
+    left: 25px;
+    color: 10px rgba(0, 0, 0, 0.5); /* Sombra negra semi-transparente */
+}
+.linea{
+    
+    position: absolute;
+    left: 451px;
+    top:0px;
+}
